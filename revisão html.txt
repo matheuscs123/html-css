@@ -1,0 +1,33 @@
+		revisão html
+h1 = titulo
+rh = linha
+p = paragrafo
+br = quebrar paragrafo ao meio
+&lt = menor que
+&gt = maior que
+
+&reg = marca registrada ®
+&copy = copyright ©
+&#x + código = emoji emojipedia
+
+Strong = negrito
+crtl + shift + p = selecionar tudo e aplicar algum comando
+
+mark = texto marcado
+big = texto grande obs: tá vermelho
+del = texto riscado
+ins = texto sublinhado
+small = texto pequeno
+sup = sobrescrito = x^2
+sub = subscrito = h20
+
+code = fonte monoespaçada(tamanho igual para as letras)
+pre = igual ao digitado(ex: código de programação com espaços, etc)
+blockquote = citação que aparece espaçada
+abbr = abreviação, coloca o cursor na palavra e aparece
+
+ol = lista ordenada
+li = item da lista
+ul = lista não ordenada
+
+ol = lista dentro de outra lista(fica dentro de li) 
