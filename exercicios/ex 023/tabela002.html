@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 2</title>
+    <style>
+        caption{
+            background-color: rgba(21, 0, 0, 0.297);
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        }
+
+        table{
+            width: 500px;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+
+
+        tbody> tr:nth-child(2n){
+            background-color: grey;
+        }
+        td.numero{
+            text-align: right;
+        }
+        
+
+
+
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <!--
+    CAPATION
+    anatomia das tabelas grandes
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH    
+    -->
+       
+
+        <table>
+             <caption>População das cidades</caption>
+            <thead>
+                <tr>
+                    <th scope="col">estado</th>
+                    <th scope="col">população</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>são paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>minas gerais</td>
+                    <td class="numero">21 168 791</td>
+                </tr>
+                <tr>
+                    <td>rio de janeiro</td>
+                    <td class="numero">17 264 943</td>
+                </tr>
+                <tr>
+                    <td>bahia</td>
+                    <td class="numero">14 873 064</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="numero">11 433</td>
+                </tr>
+                <tr>
+                    <td>rio grande do sul</td>
+                    <td class="numero">11 377</td>
+                </tr>
+                <tr>
+                    <td>pernambuco</td>
+                    <td class="numero">9 577</td>
+                </tr>
+                <tr>
+                    <td>ceara</td>
+                    <td class="numero">9 132</td>
+                </tr>
+                <tr>
+                    <td>pará</td>
+                    <td class="numero">8 602</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">total de habitante</th>
+                    <td><strong>0000</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+</body>
+</html>
