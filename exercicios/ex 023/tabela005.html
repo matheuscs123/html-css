@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: border;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cnome{
+            background-color: green;
+        }
+        col.cidade{
+            background-color: aquamarine;
+        }
+        col.csexo{
+            background-color: blueviolet;
+        }
+        col.cprof{
+            background-color: antiquewhite;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalistica</td>
+        </tr>
+        <tr>
+            <td>Carlos Eduardo</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Engenharia</td>
+        </tr>
+        <tr>
+            <td>Beatriz Souza</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Medicina</td>
+        </tr>
+        <tr>
+            <td>Ricardo Alves</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Direito</td>
+        </tr>
+        <tr>
+            <td>Juliana Lima</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Design</td>
+        </tr>
+        <tr>
+            <td>Fernando Dias</td>
+            <td>M</td>
+            <td>37</td>
+            <td>Gastronomia</td>
+        </tr>
+        <tr>
+            <td>Patrícia Melo</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Arquitetura</td>
+        </tr>
+        <tr>
+            <td>Bruno Rocha</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Informática</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
